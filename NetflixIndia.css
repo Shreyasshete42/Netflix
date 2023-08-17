@@ -1,0 +1,390 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./Images/NetflixBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#NavBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 170px;
+    color: red;
+}
+#NavBar #Left h1{
+    margin: 0px;
+    font-size: 40px;
+    font-weight: 900;
+}
+#NavBar #Right ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+    margin: 0px;
+}
+#B1{
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    width: 130px;
+    height: 38px;
+    font-size: 16px;
+}
+#B2{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid black;
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+}
+#Body{
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+    margin-bottom: 190px;
+}
+#Body h1{
+    font-size: 56px;
+    margin-bottom: 0px;
+    font-weight: 900;
+}
+#Body p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+#Body button{
+    color: white;
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    margin-right: 20px;
+    font-size: 20px;
+    background-color: red;
+}
+#Body input{
+    color: white;
+    border-radius: 5px;
+    width: 380px;
+    height: 50px;
+    border: 1px solid white;
+    margin-right: 20px;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+#Enjoy{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#Enjoy div{
+    width: 45%;
+}
+#Left1 h1{
+    font-size: 45px;
+}
+#Left1 p{
+    font-size: 25px;
+}
+#Right1{
+    position: relative;
+}
+#Right1 img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+#Right1 video{
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    width: 73%;
+    z-index: 1;
+}
+#TV{
+    background-color: black;
+    border-top: 10px solid #232323;
+}
+
+#Download{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#Download div{
+    width: 45%;
+}
+#Right2 h1{
+    font-size: 45px;
+}
+#Right2 p{
+    font-size: 25px;
+}
+#Left2{
+    position: relative;
+}
+#Left2 img{
+    width: 100%;
+    height: auto;
+}
+#Shows{
+    border-top: 10px solid #232323;
+    border-bottom: 10px solid #232323;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#Everywhere{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#Everywhere div{
+    width: 45%;
+}
+#Left3 h1{
+    font-size: 45px;
+}
+#Left3 p{
+    font-size: 25px;
+}
+#Right3{
+    position: relative;
+}
+#Right3 img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+#Right3 video {
+    position: absolute;
+    top: 12%;
+    left: 17%;
+    width: 64%;
+    z-index: 1;
+}
+#Watch{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 10px solid #232323;
+}
+
+#Kids{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#Kids div{
+    width: 45%;
+}
+#Left4{
+    position: relative;
+}
+#Left4 img{
+    width: 100%;
+    height: auto;
+}
+#Right4 h1{
+    font-size: 45px;
+}
+#Right4 p{
+    font-size: 25px;
+}
+#Child{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 10px solid #232323;
+}
+
+
+
+
+
+@media (max-width:600px){
+    body{
+        background-size: 200%;
+    }
+    #NavBar{
+        display: flex;
+        padding: 10px 10px;
+    }
+    #NavBar #Left h1{
+        margin: 0px;
+        font-size: 22px;
+        font-weight: 900;
+    }
+    #NavBar #Right ul{
+        gap: 5px;
+    }
+    #B1{
+        width: 60px;
+        height: 20px;
+        font-size: 10px;
+    }
+    #B2{
+        width: 60px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    #Body{
+        width: 80%;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    #Body h1{
+        font-size: 34px;
+        margin-top: 22px;
+        margin-bottom: 0px;
+        font-weight: 700;
+    }
+    #Body p{
+        font-size: 20px;
+        margin-bottom: 28px;
+        font-weight: 400;
+
+    }
+    #Body input{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    #Body button{
+        margin-bottom: 20px;
+        width: 50%;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    #Enjoy{
+        width: 95%;
+        margin: auto;
+        flex-direction: column;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    #Enjoy div{
+        width: 100%;
+        text-align: center;
+    }
+    #Left1 h1{
+        font-size: 30px;
+    }
+    #Left1 p{
+        font-size: 20px;
+    }
+    
+    #Download{
+        width: 95%;
+        margin: auto;
+        flex-direction: column;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    #Download div{
+        width: 100%;
+        text-align: center;
+    }
+    #Right2 h1{
+        font-size: 32px;
+    }
+    #Right2 p{
+        font-size: 18px;
+    }
+
+    
+    #Everywhere{
+        width: 95%;
+        margin: auto;
+        flex-direction: column;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    #Everywhere div{
+        width: 100%;
+        text-align: center;
+    }
+    #Left3 h1{
+        font-size: 32px;
+    }
+    #Left3 p{
+        font-size: 18px;
+    }
+    #Right3{
+        position: relative;
+    }
+    #Right3 img{
+        width: 100%;
+        position: relative;
+        z-index: 2;
+    }
+    #Right3 video {
+        position: absolute;
+        top: 12%;
+        left: 17%;
+        width: 64%;
+        z-index: 1;
+    }
+    #Watch{
+        background-color: black;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 10px solid #232323;
+    }
+
+    
+    #Kids{
+        width: 95%;
+        margin: auto;
+        flex-direction: column;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    #Kids div{
+        width: 100%;
+        text-align: center;
+    }
+    #Right4 h1{
+        font-size: 32px;
+    }
+    #Right4 p{
+        font-size: 18px;
+    }
+
+
+}
